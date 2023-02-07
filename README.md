@@ -1,7 +1,5 @@
-![Karumi logo][karumilogo] Dexter [![Build Status](https://travis-ci.org/Karumi/Dexter.svg?branch=master)](https://travis-ci.org/Karumi/Dexter) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.karumi/dexter/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.karumi/dexter) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Dexter-green.svg?style=true)](https://android-arsenal.com/details/1/2804)
+DexterFork (ex Karumi ![Karumi logo][karumilogo])
 ======
-
-**This project is no longer under active development. If you are looking for an Android library to be able to request Android permissions in runtime take a look [here](https://android-arsenal.com/tag/235?sort=rating)**
 
 Dexter is an Android library that simplifies the process of requesting permissions at runtime.
 
@@ -24,7 +22,7 @@ Include the library in your ``build.gradle``
 
 ```groovy
 dependencies{
-    implementation 'com.karumi:dexter:6.2.3'
+    implementation 'com.github.vlaushkin:DexterFork:7.0.1'
 }
 ```
 
@@ -264,7 +262,6 @@ Keep in mind that your PRs **must** be validated by Travis-CI. Please, run a loc
 Libraries used in this project
 ------------------------------
 
-* [Butterknife][3]
 * [JUnit][4]
 * [Mockito][5]
 
