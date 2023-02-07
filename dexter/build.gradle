@@ -7,9 +7,7 @@ android {
   defaultConfig {
     minSdkVersion 14
     targetSdkVersion 28
-    versionCode 1
-    versionName "1.0"
-    consumerProguardFiles 'proguard-rules.pro'
+      consumerProguardFiles 'proguard-rules.pro'
     testInstrumentationRunner "android.test.InstrumentationTestRunner"
   }
   buildTypes {
@@ -21,6 +19,7 @@ android {
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
     }
   }
+    namespace 'com.karumi.dexter'
 }
 
 dependencies {
